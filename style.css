@@ -1,0 +1,25 @@
+:root {
+--white: #ffffff;
+--black: #3E403D;
+--mid-gray: #8C8C84;
+--gray: #eaeaea;
+--lt-gray: #f8f8f8;
+--yellow: #F2DF7A;
+--gold: #A68256;
+--maron: #590202;
+}
+
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--white);
+}
